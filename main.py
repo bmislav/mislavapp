@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/about_me")
+@app.route("/aboutme")
 def about_me():
 
     godina = datetime.datetime.now().year
